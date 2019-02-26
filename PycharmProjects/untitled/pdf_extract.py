@@ -210,7 +210,7 @@ def merge_item(header, body, buyer, saler):
 
     return ITEMS
 
-text = parse_pdf("test5.pdf")
+text = parse_pdf("external-test.pdf")
 header, buyer, body, saler = split_block(text)
 ITEMS = merge_item(split_item_v2(header, inner_key_word()), split_item_v2(body, inner_key_word()),split_item_v2(buyer, inner_key_word()), split_item_v2(saler, inner_key_word()))
 print(ITEMS)
