@@ -11,7 +11,6 @@ APP_ID = '1xxxxxxx'
 API_KEY = 'vxxxxxxxxxxxxxxxxxxxxxxx'
 SECRET_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
-
 ```
 3. Create your own template（自定义模板） and publish it to get the template sign
 ```
