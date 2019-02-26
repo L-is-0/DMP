@@ -3,9 +3,9 @@
 1. Install Baidu API
 ```
 pip install aip-api
-
+```
 or
-
+```
 pip install git+https://github.com/Baidu-AIP/python-sdk.git@master
 ```
 2. Create an API and get the API key and secure key
