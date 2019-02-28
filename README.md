@@ -30,5 +30,8 @@ pip install pdfminer3k
 Noted that both methods print a dictionary of {attribute : value} which can then be uploaded to the database
 
 Problem to be solved:
-- [ ] Different invoice has different table attributes
+- [ ] Different invoice has different table attributes?
 - [x] Multiple lines item will be read as different record
+- [ ] Physical invoice and electronic invoice have different design?
+- [ ] The performace of the OCR highly depends on the clarity of the invoice
+- [ ] Try passing tests for physical invoice 
