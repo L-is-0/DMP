@@ -28,3 +28,7 @@ client.custiom(image, options)
 pip install pdfminer3k
 ```
 Noted that both methods print a dictionary of {attribute : value} which can then be uploaded to the database
+
+Problem to be solved:
+Different invoice has different table attributes []
+
