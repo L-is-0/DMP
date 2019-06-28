@@ -1,18 +1,24 @@
-from flask import Flask
+from flask import Flask, url_for
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return 'Index Page'
+    return 'index'
 
 
 @app.route('/login')
 def login():
-    return 'This is the login page'
+    return 'login'
 
 
 @app.route('/register')
 def register():
-    return 'This is the register page'
+    return 'register'
+
+
+with app.test_request_context():
+    print(url_for('index'))
+    print(url_for('login'))
+    print(url_for('register'))
