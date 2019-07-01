@@ -7,8 +7,8 @@ def create_app():
     app = Flask(__name__)
 
     @app.route('/index')
-    def hello():
-        return 'Data Management Platform'
+    def index():
+        return 'Welcome, This is Data Management Platform'
 
     from . import auth
     app.register_blueprint(auth.bp)
